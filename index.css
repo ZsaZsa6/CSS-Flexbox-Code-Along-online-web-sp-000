@@ -18,12 +18,14 @@ main {
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
+  flex-shrink: 0;
 }
 
 footer {
   background-color: #DAEEEF;
   height: 80px;
   width: 100%;
+  flex-shrink: 3;
 }
 .flex-container {
   display: flex;
